@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.amazonaws</groupId>
   <artifactId>aws-java-sdk-swf-libraries</artifactId>
-  <version>1.11.22-SNAPSHOT</version>
+  <version>1.11.22-MELTMEDIA-1-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>Java Libraries for Amazon Simple WorkFlow</name>
   <description>This artifact contains the higher level libraries that can be used in Amazon Simple WorkFlow Service</description>
@@ -16,7 +16,18 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
-
+  <distributionManagement>
+    <repository>
+      <id>meltmedia-releases</id>
+      <name>Meltmedia Release Repository [m2]</name>
+      <url>http://nexus.meltmedia.com/content/repositories/thirdparty</url>
+    </repository>
+    <snapshotRepository>
+      <id>meltmedia-snapshots</id>
+      <name>Meltmedia Snapshot Repository [m2]</name>
+      <url>http://nexus.meltdev.com/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
   <developers>
     <developer>
       <id>amazonwebservices</id>
