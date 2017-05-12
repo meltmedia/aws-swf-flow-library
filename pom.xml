@@ -139,6 +139,7 @@
         <version>2.9.1</version>
         <configuration>
           <excludePackageNames>*.internal:*.transform</excludePackageNames>
+          <additionalparam>-Xdoclint:none</additionalparam>
           <minmemory>128m</minmemory>
           <maxmemory>1024m</maxmemory>
         </configuration>
