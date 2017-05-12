@@ -39,9 +39,9 @@
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:git://github.com/meltmedia/aws-sdk-java.git</connection>
-    <developerConnection>scm:git:git@github.com:meltmedia/aws-sdk-java.git</developerConnection>
-    <url>https://github.com/meltmedia/aws-sdk-java</url>
+    <connection>scm:git:git://github.com/meltmedia/aws-swf-flow-library.git</connection>
+    <developerConnection>scm:git:git@github.com:meltmedia/aws-swf-flow-library.git</developerConnection>
+    <url>https://github.com/meltmedia/aws-swf-flow-library</url>
   </scm>
   <properties>
     <spring.version>3.0.7.RELEASE</spring.version>
