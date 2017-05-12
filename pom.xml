@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.amazonaws</groupId>
   <artifactId>aws-java-sdk-swf-libraries</artifactId>
-  <version>1.11.22-MELTMEDIA-1-SNAPSHOT</version>
+  <version>1.11.22-MELTMEDIA-1</version>
   <packaging>jar</packaging>
   <name>Java Libraries for Amazon Simple WorkFlow</name>
   <description>This artifact contains the higher level libraries that can be used in Amazon Simple WorkFlow Service</description>
@@ -42,6 +41,7 @@
     <connection>scm:git:git://github.com/meltmedia/aws-swf-flow-library.git</connection>
     <developerConnection>scm:git:git@github.com:meltmedia/aws-swf-flow-library.git</developerConnection>
     <url>https://github.com/meltmedia/aws-swf-flow-library</url>
+    <tag>v1.11.22-MELTMEDIA-1</tag>
   </scm>
   <properties>
     <spring.version>3.0.7.RELEASE</spring.version>
